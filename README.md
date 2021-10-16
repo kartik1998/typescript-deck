@@ -9,3 +9,4 @@
 - [Index Types](./src/index-types/index.ts)
 - [Function overloads](./src/function-overloads/index.ts)
 - [Generics](./src/generics/index.ts)
+- [Generics -> keyof](./src/generics/index.ts)
