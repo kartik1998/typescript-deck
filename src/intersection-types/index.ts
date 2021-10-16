@@ -1,4 +1,4 @@
-/** 
+/**
  * can also be replaced with interfaces. Implementation below
  * @intersection_types
  */
@@ -15,32 +15,32 @@ export type Employee = {
 type ElevatedEmployee = Admin & Employee;
 
 const elevatedEmployee: ElevatedEmployee = {
-    name: 'emp1',
-    priviliges: ['admin', 'employee'],
-    startDate: new Date()
-}
+  name: "emp1",
+  priviliges: ["admin", "employee"],
+  startDate: new Date(),
+};
 
 console.log(elevatedEmployee);
 
 // -- //
 
 interface IAdmin {
-    name: string
-    priviliges: string[]
+  name: string;
+  priviliges: string[];
 }
 
 interface IEmployee {
-    name: string
-    startDate: Date
+  name: string;
+  startDate: Date;
 }
 
 interface IElevatedEmployee extends IAdmin, IEmployee {}
 
 const ielevatedEmployee: IElevatedEmployee = {
-    name: 'Iemp1',
-    priviliges: ['Iadmin', 'Iemployee'],
-    startDate: new Date()
-}
+  name: "Iemp1",
+  priviliges: ["Iadmin", "Iemployee"],
+  startDate: new Date(),
+};
 
 console.log(ielevatedEmployee);
 
@@ -49,7 +49,7 @@ console.log(ielevatedEmployee);
 export type Combinable = string | number;
 export type Numeric = number | boolean;
 
-type Universal = Combinable & Numeric
+type Universal = Combinable & Numeric;
 
 /*
 Intersection types :-
