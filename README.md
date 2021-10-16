@@ -10,3 +10,4 @@
 - [Function overloads](./src/function-overloads/index.ts)
 - [Generics](./src/generics/index.ts)
 - [Generics -> keyof](./src/generics/index.ts)
+- [partial types](./src/generics/partial-types.ts)
