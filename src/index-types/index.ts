@@ -3,10 +3,10 @@ Index types allow us to create objects which are more flexible regarding the pro
 */
 
 interface FlatJSON {
-    [key: string]: string
+  [key: string]: string;
 }
 
 interface ErrorContainer {
-    id: string,
-    [key: string]: string
+  id: string;
+  [key: string]: string;
 }
