@@ -1,2 +1,1 @@
-# typescript-deck
-Typescript reference
+## Typescript Reference
