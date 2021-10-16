@@ -2,12 +2,12 @@
  * can also be replaced with interfaces. Implementation below
  * @intersection_types
  */
-type Admin = {
+export type Admin = {
   name: string;
   priviliges: string[];
 };
 
-type Employee = {
+export type Employee = {
   name: string;
   startDate: Date;
 };
@@ -46,8 +46,8 @@ console.log(ielevatedEmployee);
 
 // -- //
 
-type Combinable = string | number;
-type Numeric = number | boolean;
+export type Combinable = string | number;
+export type Numeric = number | boolean;
 
 type Universal = Combinable & Numeric
 
