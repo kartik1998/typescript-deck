@@ -8,3 +8,4 @@
 - [Type casting](https://www.udemy.com/course/understanding-typescript/learn/lecture/16893896#overview)
 - [Index Types](./src/index-types/index.ts)
 - [Function overloads](./src/function-overloads/index.ts)
+- [Generics](./src/generics/index.ts)
