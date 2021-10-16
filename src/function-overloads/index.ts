@@ -5,8 +5,8 @@ signatures, so to say for one at the same function, which simply means we can ha
 ways of calling a function with different parameters
 */
 
-function add(a: string, b: string): string
-function add(a: number, b: number): number
+function add(a: string, b: string): string;
+function add(a: number, b: number): number;
 function add(a: Combinable, b: Combinable) {
   if (typeof a === "string" || typeof b === "string")
     return a.toString() + b.toString();
@@ -14,5 +14,4 @@ function add(a: Combinable, b: Combinable) {
   return a + b;
 }
 
-const result = add('max', 'imum');
-
+const result = add("max", "imum");
