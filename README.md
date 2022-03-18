@@ -15,3 +15,4 @@
   - [First class Decorators & Decorator Factory](./src/decorators/first-class-decorator.ts)
   - [Property Decorators](./src/decorators/property-decorators.ts)
   - [Accessor, parameter, method descriptor](./src/decorators/accessor-parameter-decorators.ts)
+  - [Documentation](https://www.typescriptlang.org/docs/handbook/decorators.html)
