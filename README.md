@@ -13,3 +13,4 @@
 - [partial types](./src/generics/partial-types.ts)
 - [Decorators](./src/decorators/)
   - [First class Decorators & Decorator Factory](./src/decorators/first-class-decorator.ts)
+  - [Property Decorators](./src/decorators/property-decorators.ts)
