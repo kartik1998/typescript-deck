@@ -11,3 +11,5 @@
 - [Generics](./src/generics/index.ts)
 - [Generics -> keyof](./src/generics/index.ts)
 - [partial types](./src/generics/partial-types.ts)
+- [Decorators](./src/decorators/)
+  - [First class Decorators & Decorator Factory](./src/decorators/first-class-decorator.ts)

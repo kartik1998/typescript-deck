@@ -1,0 +1,1 @@
+// enable experimentalDecorators in tsconfig.json
